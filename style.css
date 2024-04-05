@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+:root {
+    --dark: #485789;
+    --col: #0b0473;
+    --colr: #e9e6f3;
+  }
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+body{
+    background-color: rgb(87, 126, 157);
+}
+
+.text-custom {
+    color: var(--col);
+  }
+
+.text-custom1 {
+    color: var(--colr);
+  }
+
+  
+
+.calculator {
+    background-color: var(--dark);
+    width: 200px;
+    margin: 0 auto;
+    padding: 15px 10px 20px 10px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px 5px rgb(31, 31, 31);
+}
+
+#display {
+    height: 90px;
+    background-color: #dbdfe3;
+    border-radius: 20px 20px 5px 5px;
+    margin-bottom: 10px;
+    padding: 20px 5px;
+    box-shadow: inset -1px -1px 5px 1px rgb(90, 90, 90);
+    overflow: hidden;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
